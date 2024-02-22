@@ -38,6 +38,8 @@ h1 {
 .content {
   box-shadow: 0 0 3px #888888;
   padding: 0.5rem;
+
+  min-width: 280px;
 }
 
 .portrait {

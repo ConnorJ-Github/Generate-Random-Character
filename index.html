@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Generate Random Character</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="characterCard">
+        <h1>Build your Hero!</h1>
+
+        <div class="content">
+          <div class="characterPanel">
+            <div class="portrait"><img src="" alt="" id="classImage" /></div>
+            <div class="stats">
+              <div>Health: <span id="heroHealth">0</span></div>
+              <div>Attack: <span id="heroAttack">0</span></div>
+              <div>Defense: <span id="heroDefense">0</span></div>
+              <div>Age: <span id="heroAge">0</span></div>
+              <div>Class: <span id="heroClass">none</span></div>
+            </div>
+          </div>
+
+          <div class="createCharacter">
+            <button onclick="createCharacter()">Create Hero</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
